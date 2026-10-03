@@ -1,0 +1,16 @@
+# dependencies & build output
+node_modules/
+dist/
+target/
+
+# environment files (never commit secrets)
+.env
+.env.local
+*.env
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
